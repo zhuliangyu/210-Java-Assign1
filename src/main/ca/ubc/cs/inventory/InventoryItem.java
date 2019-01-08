@@ -27,7 +27,7 @@ public class InventoryItem {
     // MODIFIES: this
     // EFFECTS: removes numItems items from the stock of this inventory item
     public void removeFromStock(int numItems) {
-        numInStock = -numItems;
+        numInStock -= numItems;
     }
 
     // REQUIRES: costInCents > 0
