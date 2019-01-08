@@ -20,7 +20,7 @@ public class InventoryItem {
     // MODIFIES: this
     // EFFECTS: adds numItems items to the stock of this inventory item
     public void addStock(int numItems) {
-        numInStock = +numItems;
+        numInStock += numItems;
     }
 
     // REQUIRES: numItems <= getNumInStock()
